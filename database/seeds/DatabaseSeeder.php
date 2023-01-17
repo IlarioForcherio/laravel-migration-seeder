@@ -12,5 +12,8 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UserSeeder::class);
+
+        //sostituire user con il nome del seeder
+         $this->call(TrainsTableSeeder::class);
     }
 }
