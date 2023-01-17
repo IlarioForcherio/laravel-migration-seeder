@@ -21,7 +21,7 @@ class CreateTrainsTable extends Migration
             $table->float('orario_partenza',4,2);
             $table->float('orario_arrivo',4,2);
             $table->smallInteger('binario');
-            $table->float('prezzo',4,2);
+            $table->decimal('prezzo',4,2);
             //timestamps va sempre lasciato alla fine
             $table->timestamps();
         });

@@ -24,7 +24,7 @@
     <tbody>
         @foreach ( $trains as $elem )
       <tr>
-        <td>{{$elem['compagnia']}}</td>
+        <td>{{$elem->compagnia}}</td>
         <td>{{$elem['partenza']}}</td>
         <td>{{$elem['destinazione']}}</td>
         <td>{{$elem['orario_partenza']}}</td>

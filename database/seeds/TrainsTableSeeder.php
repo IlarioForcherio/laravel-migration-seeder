@@ -25,11 +25,11 @@ class TrainsTableSeeder extends Seeder
             'prezzo' => 99.99,
         ],
         [
-            'compagnia' => 'Italo',
+            'compagnia' => 'italo',
             'partenza' => 'Bari',
             'destinazione' => "Sauze D'Oulx",
             'orario_partenza' => 12.30,
-            'orario_arrivo' => 13.01,
+            'orario_arrivo' => 13.00,
             'binario' => 5,
             'prezzo' => 89.99,
         ]
